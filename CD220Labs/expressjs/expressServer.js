@@ -30,7 +30,6 @@ app.get("/fetch/:num",(req,res)=>{
     } else {
         res.send(months[num-1]);
     }
-
 })
 
 app.listen(3333, () => {
